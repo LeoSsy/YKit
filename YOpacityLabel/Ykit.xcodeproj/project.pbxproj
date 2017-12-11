@@ -24,6 +24,12 @@
 		2A5A5D421FDB87040056521E /* YReversalView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A5A5D411FDB87040056521E /* YReversalView.m */; };
 		2A5A5D431FDB87040056521E /* YReversalView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A5A5D411FDB87040056521E /* YReversalView.m */; };
 		2A5A5D441FDB87040056521E /* YReversalView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A5A5D411FDB87040056521E /* YReversalView.m */; };
+		2A5A5D5B1FDE22760056521E /* YVLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A5A5D5A1FDE22760056521E /* YVLabel.m */; };
+		2A5A5D5C1FDE22760056521E /* YVLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A5A5D5A1FDE22760056521E /* YVLabel.m */; };
+		2A5A5D5D1FDE22760056521E /* YVLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A5A5D5A1FDE22760056521E /* YVLabel.m */; };
+		2A5A5D601FDE22840056521E /* YHLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A5A5D5E1FDE22840056521E /* YHLabel.m */; };
+		2A5A5D611FDE22840056521E /* YHLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A5A5D5E1FDE22840056521E /* YHLabel.m */; };
+		2A5A5D621FDE22840056521E /* YHLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A5A5D5E1FDE22840056521E /* YHLabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +72,10 @@
 		2A5A5D3C1FDB77F40056521E /* YCoinButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCoinButton.m; sourceTree = "<group>"; };
 		2A5A5D401FDB87040056521E /* YReversalView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YReversalView.h; sourceTree = "<group>"; };
 		2A5A5D411FDB87040056521E /* YReversalView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YReversalView.m; sourceTree = "<group>"; };
+		2A5A5D591FDE22760056521E /* YVLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YVLabel.h; sourceTree = "<group>"; };
+		2A5A5D5A1FDE22760056521E /* YVLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YVLabel.m; sourceTree = "<group>"; };
+		2A5A5D5E1FDE22840056521E /* YHLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHLabel.m; sourceTree = "<group>"; };
+		2A5A5D5F1FDE22840056521E /* YHLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHLabel.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +136,10 @@
 				2A5A5D3C1FDB77F40056521E /* YCoinButton.m */,
 				2A5A5D401FDB87040056521E /* YReversalView.h */,
 				2A5A5D411FDB87040056521E /* YReversalView.m */,
+				2A5A5D591FDE22760056521E /* YVLabel.h */,
+				2A5A5D5A1FDE22760056521E /* YVLabel.m */,
+				2A5A5D5F1FDE22840056521E /* YHLabel.h */,
+				2A5A5D5E1FDE22840056521E /* YHLabel.m */,
 				2A5A5D0A1FDA89580056521E /* Main.storyboard */,
 				2A5A5D0D1FDA89580056521E /* Assets.xcassets */,
 				2A5A5D0F1FDA89580056521E /* LaunchScreen.storyboard */,
@@ -289,9 +303,11 @@
 				2A5A5D381FDA897D0056521E /* YOpacityLabel.m in Sources */,
 				2A5A5D091FDA89580056521E /* ViewController.m in Sources */,
 				2A5A5D421FDB87040056521E /* YReversalView.m in Sources */,
+				2A5A5D601FDE22840056521E /* YHLabel.m in Sources */,
 				2A5A5D141FDA89580056521E /* main.m in Sources */,
 				2A5A5D3D1FDB77F40056521E /* YCoinButton.m in Sources */,
 				2A5A5D061FDA89580056521E /* AppDelegate.m in Sources */,
+				2A5A5D5B1FDE22760056521E /* YVLabel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,7 +316,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				2A5A5D391FDA897D0056521E /* YOpacityLabel.m in Sources */,
+				2A5A5D5C1FDE22760056521E /* YVLabel.m in Sources */,
 				2A5A5D3E1FDB77F40056521E /* YCoinButton.m in Sources */,
+				2A5A5D611FDE22840056521E /* YHLabel.m in Sources */,
 				2A5A5D431FDB87040056521E /* YReversalView.m in Sources */,
 				2A5A5D1E1FDA89580056521E /* YOpacityLabelTests.m in Sources */,
 			);
@@ -311,7 +329,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				2A5A5D3A1FDA897D0056521E /* YOpacityLabel.m in Sources */,
+				2A5A5D5D1FDE22760056521E /* YVLabel.m in Sources */,
 				2A5A5D3F1FDB77F40056521E /* YCoinButton.m in Sources */,
+				2A5A5D621FDE22840056521E /* YHLabel.m in Sources */,
 				2A5A5D441FDB87040056521E /* YReversalView.m in Sources */,
 				2A5A5D291FDA89580056521E /* YOpacityLabelUITests.m in Sources */,
 			);
